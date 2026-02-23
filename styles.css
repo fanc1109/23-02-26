@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #005599; /* Azul padrão corporativo/tech */
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+#texto {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+#botao {
+    background-color: #ff3333; /* Vermelho vibrante para destaque */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#botao:hover {
+    background-color: #cc0000;
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+#botao:active {
+    transform: scale(0.98);
+}
