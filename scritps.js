@@ -5,7 +5,7 @@ const senha = "kiryan4"
 
 
 botao.addEventListener("click",()=>{
-    const codigo = document.getElementById("cupom").value
+    const codigo = document.getElementById("cupom").value.trim()
 
     if (codigo==senha){
         texto.textContent="Você ganhou 50% de desconto!"
