@@ -48,3 +48,19 @@ h1 {
 #botao:active {
     transform: scale(0.98);
 }
+input[type="text"] {
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 280px;
+    outline: none; /* Remove aquela borda azul padrão do navegador */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito quando o usuário clica para digitar */
+input[type="text"]:focus {
+    border-color: #005599; /* Cor azul do SENAI */
+    box-shadow: 0 0 8px rgba(0, 85, 153, 0.2);
+}
